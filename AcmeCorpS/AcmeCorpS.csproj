@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>7b9d6975-e5d4-453a-b288-149a0c209e96</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.App" Version="3.1.20" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.20" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.20" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Tests\" />
+  </ItemGroup>
+
+
+</Project>
